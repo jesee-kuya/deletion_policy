@@ -36,6 +36,24 @@
     ul {
       padding-left: 20px;
     }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 14px;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 8px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    th {
+      background: #f3f4f6;
+    }
+    .table-wrap {
+      overflow-x: auto;
+    }
     .email {
       font-weight: bold;
     }
@@ -63,107 +81,146 @@
     <p><strong>Legal Name:</strong> Ian Luande</p>
     <p><strong>Address:</strong> Sigomere, Ugenya - 40607, Kenya</p>
     <p><strong>Contact:</strong> <span class="email">marcedesglc7@gmail.com</span></p>
-    <p><strong>Last updated:</strong> November 18, 2026</p>
+    <p><strong>Last updated:</strong> November 19, 2026</p>
 
     <p>
       This Privacy Policy explains how VoltraKe ("we", "us", "our"), the developer of the
       Voltra mobile application ("Voltra" or "the App"), collects, uses, shares and protects
-      your information when you use the App. By using Voltra, you agree to the practices
-      described in this policy.
+      personal information, in line with Kenya's Data Protection Act, 2019. VoltraKe is the
+      data controller for the App.
     </p>
 
-    <h2>1. Information We Collect</h2>
-    <p><strong>Information you provide</strong></p>
-    <ul>
-      <li>Account details: name, phone number and email address</li>
-      <li>Address details you choose to provide (such as city or location of residence)</li>
-      <li>Information about devices you register in the App</li>
-      <li>Photos of your devices that you upload</li>
-      <li>Documents or details you submit to verify device ownership</li>
-      <li>Messages you send to us or through the App</li>
-    </ul>
-
-    <p><strong>Information collected with your permission</strong></p>
-    <ul>
-      <li><strong>Camera and photos:</strong> to take or upload pictures of your devices. Photos are only accessed when you choose to add one.</li>
-      <li><strong>Location:</strong> to provide location-based features of the App. You can turn this off at any time in your device settings.</li>
-      <li><strong>Notifications:</strong> to send you in-app and push notifications about your account and devices.</li>
-    </ul>
-
-    <p><strong>Information collected automatically</strong></p>
-    <ul>
-      <li>Device information such as device model, operating system version and unique device identifiers</li>
-      <li>Usage and diagnostic data such as IP address, app version, access times and crash logs</li>
-    </ul>
-
-    <h2>2. How We Use Your Information</h2>
-    <ul>
-      <li>To create and manage your Voltra account</li>
-      <li>To register your devices and verify device ownership</li>
-      <li>To send you notifications and messages related to your account and devices</li>
-      <li>To respond to your support requests</li>
-      <li>To maintain the security of the App and prevent fraud or misuse</li>
-      <li>To fix problems and improve the App</li>
-      <li>To comply with legal obligations</li>
-    </ul>
-    <p>We do not sell your personal information.</p>
-
-    <h2>3. How We Share Your Information</h2>
-    <p>We only share your information in the following cases:</p>
-    <ul>
-      <li><strong>Service providers:</strong> trusted providers that host our servers, store data, or deliver notifications on our behalf. They may only use your data to provide these services to us.</li>
-      <li><strong>Legal requirements:</strong> when required by law, court order or a valid request from a government or law enforcement authority, or to protect the rights, property or safety of VoltraKe, our users or the public.</li>
-      <li><strong>With your consent:</strong> for any other purpose, only when you have agreed.</li>
-    </ul>
-
-    <h2>4. Data Security</h2>
+    <h2>1. What Voltra Does</h2>
     <p>
-      We use reasonable technical and organisational measures to protect your information,
-      including encrypted connections (HTTPS) when data is sent between the App and our servers.
-      However, no method of transmission or storage is 100% secure, and we cannot guarantee
-      absolute security.
+      Voltra lets people register their phones and other devices to themselves, check whether a
+      device is registered or reported stolen before buying it, report stolen devices, transfer
+      ownership, and buy and sell devices. Shops and institutions can register devices they own.
     </p>
 
-    <h2>5. Data Retention</h2>
+    <h2>2. Information We Collect and Why</h2>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Information</th><th>When</th><th>Why</th></tr>
+        <tr><td>Phone number</td><td>Signing in and registering</td><td>To sign you in with a one-time SMS code and to contact you about your account and devices</td></tr>
+        <tr><td>Full name and national ID or passport number</td><td>Registering as an owner</td><td>To link devices to a verified owner and prevent fraud</td></tr>
+        <tr><td>Your photo (selfie)</td><td>Registering as an owner</td><td>To help you and Voltra confirm who owns a device</td></tr>
+        <tr><td>Device details: brand, model, serial number, IMEI numbers and photos</td><td>Registering a device</td><td>To identify the device as yours</td></tr>
+        <tr><td>Precise location, while the App is open</td><td>When you check a device</td><td>To record where a device check happened, so a stolen device can be located</td></tr>
+        <tr><td>Payment details: M-Pesa number, amount and M-Pesa receipt</td><td>Paying for registrations, transfers, subscriptions or marketplace purchases</td><td>To take payment and confirm it with Safaricom</td></tr>
+        <tr><td>Payout details: M-Pesa number and amount</td><td>Agents and managers withdrawing earnings</td><td>To pay you</td></tr>
+        <tr><td>Images you scan to read a serial number or IMEI</td><td>Registering or checking a device</td><td>To read the number automatically</td></tr>
+        <tr><td>Push notification token</td><td>When you allow notifications</td><td>To send you alerts about your account and devices</td></tr>
+        <tr><td>Messages to Voltra support</td><td>When you contact us in the App</td><td>To help you</td></tr>
+        <tr><td>Crash and error reports</td><td>When the App or our servers hit an error</td><td>To find and fix problems. Phone numbers, ID numbers, codes, photos and locations are removed before a report is sent.</td></tr>
+      </table>
+    </div>
     <p>
-      We keep your personal information for as long as your account is active or as needed to
-      provide the App. When you delete your account, your data is deleted within 7 business days
-      after verification, except:
+      The App asks for camera, photo and location permissions only when you use a feature that
+      needs them. You can turn them off at any time in your device settings.
     </p>
+    <p><strong>We do not sell your personal information and do not use it for advertising.</strong></p>
+
+    <h2>3. Device Checks: What Other People See</h2>
     <ul>
-      <li>Audit and system logs, which are kept for up to 90 days</li>
-      <li>Records we are required to keep by law or for law enforcement, where applicable</li>
+      <li>
+        <strong>When you check a device</strong>, you see whether it is registered or reported
+        stolen. For a device owned by a private person you see only a shortened name and a
+        partly hidden phone number, never their ID number or photo. For a shop or institution
+        you see its business details.
+      </li>
+      <li>
+        <strong>When someone checks a device you own that is not reported stolen</strong>, you
+        are told it was checked, roughly where (area name) and the checker's first name and
+        last initial. The checker's phone number, ID number, photo and exact location are not
+        shared with you.
+      </li>
+      <li>
+        <strong>When someone checks a device that is reported stolen</strong>, the owner receives
+        the checker's name, phone number, ID number, photo and the place of the check, so the
+        device can be recovered with the police. These details are also kept on the stolen-device
+        case for Voltra and law-enforcement officers.
+      </li>
+      <li>
+        <strong>Ownership transfers:</strong> the sender sees the recipient's shortened name to
+        confirm they are sending to the right person.
+      </li>
     </ul>
 
-    <h2>6. Your Rights and Choices</h2>
-    <p>You can:</p>
+    <h2>4. Who We Share Information With</h2>
     <ul>
-      <li>Access, update or correct your information in the App or by contacting us</li>
-      <li>Withdraw camera, location or notification permissions at any time in your device settings</li>
-      <li>Request deletion of your account and data</li>
+      <li>
+        <strong>Service providers</strong> that run parts of Voltra for us and may use the
+        information only for that purpose: Supabase (database, file storage and sign-in, with
+        servers in the European Union), Africa's Talking (SMS), Safaricom (M-Pesa payments and
+        payouts), Google Cloud Vision (reading serial numbers and IMEIs from images), Expo and
+        Google Firebase (push notifications) and Sentry (error reports, with servers in the
+        European Union).
+      </li>
+      <li><strong>Law enforcement and authorities</strong> when a device is reported stolen, or where the law requires it.</li>
+      <li><strong>Other users</strong>, only as described in section 3.</li>
     </ul>
     <p>
-      To delete your account, email <span class="email">marcedesglc7@gmail.com</span> with the
-      subject "Account Deletion Request". Full details are in our
-      <a href="/">Account Deletion Policy</a>.
+      Some of these providers store or process information outside Kenya, including in the
+      European Union.
     </p>
 
-    <h2>7. Children's Privacy</h2>
+    <h2>5. How Long We Keep Information</h2>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Information</th><th>Kept for</th></tr>
+        <tr><td>Account, profile and device records</td><td>While your account is active. Removed when your account is deleted (see section 7).</td></tr>
+        <tr><td>Device check records (checker details and exact location)</td><td>90 days, after which the checker's details and location are removed. Checks of stolen devices are kept for the stolen-device case.</td></tr>
+        <tr><td>Payment and payout records</td><td>As long as Kenyan tax and accounting law requires.</td></tr>
+        <tr><td>SMS sign-in codes</td><td>They expire after 5 minutes and can be used only once.</td></tr>
+        <tr><td>Support messages and notifications</td><td>While your account is active. Deleted with your account.</td></tr>
+        <tr><td>Records of actions taken by Voltra staff</td><td>Kept for security and accountability.</td></tr>
+      </table>
+    </div>
+
+    <h2>6. How We Protect Your Information</h2>
+    <ul>
+      <li>You sign in with a one-time SMS code. Your session is stored in your phone's secure storage and expires unless renewed.</li>
+      <li>Our servers identify you from your signed-in session only, and you can see and change only your own records.</li>
+      <li>Profile photos are stored privately and shown only through links that expire.</li>
+      <li>Every payment is confirmed directly with Safaricom before it is accepted.</li>
+      <li>Voltra staff access is limited by role, requires a second sign-in step, and every sensitive action is recorded with a reason.</li>
+      <li>All data travels over encrypted connections (HTTPS).</li>
+    </ul>
+    <p>No method of transmission or storage is completely secure, but we work to protect your information and fix problems quickly.</p>
+
+    <h2>7. Your Rights and Choices</h2>
     <p>
-      Voltra is not intended for children under 13. We do not knowingly collect personal
-      information from children under 13. If you believe a child has provided us with personal
-      information, please contact us and we will delete it.
+      Under the Data Protection Act, 2019 you can ask to access, correct or delete your
+      information, object to or restrict how we use it, or receive a copy in a portable format.
+      Where we rely on your consent, you can withdraw it at any time.
     </p>
-
-    <h2>8. Changes to This Policy</h2>
     <p>
-      We may update this Privacy Policy from time to time. We will post the updated policy on this
-      page and change the "Last updated" date above. Significant changes will also be announced in
-      the App.
+      <strong>To delete your account</strong>, open the App and go to <strong>Profile &rarr;
+      Policy &amp; Account Deletion &rarr; Request Account Deletion</strong>, or email
+      <span class="email">marcedesglc7@gmail.com</span> with the subject "Account Deletion
+      Request". Full details are in our <a href="/">Account Deletion Policy</a>.
+    </p>
+    <p>
+      To use any other right, email <span class="email">marcedesglc7@gmail.com</span>. If you are
+      not satisfied with our response, you can complain to the Office of the Data Protection
+      Commissioner (<a href="https://www.odpc.go.ke">www.odpc.go.ke</a>).
     </p>
 
-    <h2>9. Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy or your data, contact:</p>
+    <h2>8. Children</h2>
+    <p>
+      Voltra is not intended for anyone under 18. We do not knowingly collect personal
+      information from children. If you believe a child has given us personal information,
+      contact us and we will delete it.
+    </p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>
+      We may update this policy. We will post the new version on this page, change the "Last
+      updated" date above and tell you in the App before significant changes take effect.
+    </p>
+
+    <h2>10. Contact Us</h2>
+    <p>For questions about this policy or your information, contact:</p>
     <p>
       VoltraKe (Ian Luande)<br />
       Sigomere, Ugenya - 40607, Kenya<br />
